@@ -1,5 +1,5 @@
 import React from 'react';
-import GamePage from './Container/GamePage';
+import GamePage from './Container/MainPage/GamePage';
 import './App.css';
 
 function App() {

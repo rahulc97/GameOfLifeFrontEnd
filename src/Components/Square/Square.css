@@ -1,13 +1,22 @@
-.container{
+.squarecontainer{
+    /* display: flex;
+    align-items: center; */
     width: 60px;
     height: 60px;
+
 }
 .square{
-    height: 60px;
-    width: 60px;
-    margin: 5px;
+    height: 55px;
+    width: 55px;
+    margin: 1px;
+   
+ 
+  
+    /* align-content: center; */
+}
+.dead{
     background-color: rgb(208, 233, 66);
-    display: flex;
-    align-items: center;
-    align-content: center;
+}
+.live{
+    background-color: blue;
 }

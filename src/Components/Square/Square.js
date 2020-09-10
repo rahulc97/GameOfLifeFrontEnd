@@ -1,10 +1,16 @@
 import React from 'react';
 import './Square.css'
 const Square = (props) => {
-    return (<div className='container'  >
-        <div className='square' >
+    let classes='square dead';
+    if(props.living){
+    
+        classes='square live';
+    }
+
+    return (
+        <div className={classes} onClick={()=>props.clicked(props.row,props.col)} >
             {/* {props.id} */}
         </div>
-    </div>);
+   );
 }
 export default Square;
